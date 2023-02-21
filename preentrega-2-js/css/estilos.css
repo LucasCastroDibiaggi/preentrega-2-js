@@ -1,0 +1,219 @@
+@charset "UTF-8";
+body {
+  font-family: sans-serif;
+  margin: 0; }
+
+.pie-pagina {
+  background-color: whitesmoke;
+  width: 100%; }
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px; }
+    .pie-pagina .grupo-1 .red-social a {
+      display: inline-block;
+      text-decoration: none;
+      width: 45px;
+      height: 45px;
+      line-height: 45px; }
+  .pie-pagina .grupo-2 {
+    padding: 15px 10px;
+    text-align: center; }
+
+.box {
+  grid-column: 2/3; }
+
+div h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+h3 {
+  color: white; }
+
+h1 {
+  font-family: 'Viga', sans-serif;
+  color: black;
+  font-size: 30px; }
+
+h2 {
+  font-family: 'Viga', sans-serif;
+  font-size: 36px; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+header {
+  display: flex;
+  min-height: 70px;
+  background-color: whitesmoke;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; }
+
+.logo {
+  display: flex; }
+  .logo img {
+    height: 50px; }
+
+nav a {
+  font-weight: 600;
+  padding: 10px;
+  font-family: 'Viga', sans-serif; }
+  nav a:hover {
+    color: #1570bb; }
+
+.foto1 img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background-size: cover;
+  display: block; }
+
+.categorias {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 150px);
+  margin: auto;
+  margin-top: 50px;
+  max-width: 90%;
+  padding: 3rem 0;
+  font-family: 'Viga', sans-serif; }
+
+.hombre {
+  background-image: url(../imagenes/hombreh.jpg);
+  background-size: cover;
+  grid-row: 1/4;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 30px; }
+  .hombre:hover {
+    transform: scale(1.1); }
+
+.boton1 {
+  height: 50px;
+  width: 70px;
+  background-color: rgba(247, 253, 249, 0.769);
+  color: orangered;
+  cursor: pointer;
+  transform: translate(100px, 200px);
+  font-weight: bold; }
+
+.mujer {
+  background-image: url(../imagenes/M.jpg);
+  background-size: cover;
+  grid-row: 1/4;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 30px; }
+  .mujer:hover {
+    transform: scale(1.1); }
+
+.boton2 {
+  height: 50px;
+  width: 70px;
+  background-color: rgba(247, 253, 249, 0.769);
+  color: orangered;
+  cursor: pointer;
+  transform: translate(100px, 200px);
+  font-weight: bold; }
+
+.niño {
+  background-image: url(../imagenes/niña.jpg);
+  background-size: cover;
+  grid-row: 1/4;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 30px; }
+  .niño:hover {
+    transform: scale(1.1); }
+
+.boton3 {
+  height: 50px;
+  width: 70px;
+  background-color: rgba(247, 253, 249, 0.769);
+  color: orangered;
+  cursor: pointer;
+  transform: translate(100px, 200px);
+  font-weight: bold; }
+
+.original {
+  background-image: url(../imagenes/original.jpg);
+  background-size: cover;
+  grid-row: 1/4;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 30px; }
+  .original:hover {
+    transform: scale(1.1); }
+
+.boton4 {
+  height: 50px;
+  width: 70px;
+  background-color: rgba(247, 253, 249, 0.769);
+  color: orangered;
+  cursor: pointer;
+  transform: translate(100px, 200px);
+  font-weight: bold; }
+
+.elegir {
+  display: flex;
+  justify-content: center; }
+
+@media (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .categorias {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .categorias .hombre {
+      display: flex;
+      width: 400px;
+      background-position: center;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+    .categorias .mujer {
+      display: flex;
+      width: 400px;
+      background-position: center;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+    .categorias .niño {
+      display: flex;
+      width: 400px;
+      background-position: center;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+    .categorias .original {
+      display: flex;
+      width: 400px;
+      background-position: center;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+  .boton1 {
+    transform: none;
+    margin: 15px; }
+  .boton2 {
+    transform: none;
+    margin: 15px; }
+  .boton3 {
+    transform: none;
+    margin: 15px;
+    transform: none;
+    margin: 15px; }
+  .boton4 {
+    transform: none;
+    margin: 15px; } }
